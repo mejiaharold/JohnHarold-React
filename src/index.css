@@ -1,2 +1,9 @@
-body{margin:0;background:#fff;color-scheme:light}
-#root{width:100%}
+body {
+	margin: 0;
+	color-scheme: light;
+}
+
+#root {
+	width: 100%;
+	min-height: 100vh;
+}
