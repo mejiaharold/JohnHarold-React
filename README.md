@@ -31,15 +31,15 @@ You can browse the website without Stripe keys, but the Continue to payment butt
    ```dotenv
    STRIPE_SECRET_KEY=sk_test_paste_your_secret_key_here
    VITE_STRIPE_PUBLISHABLE_KEY=pk_test_paste_your_publishable_key_here
+   STRIPE_PAYMENT_METHOD_CONFIGURATION=pmc_paste_your_test_configuration_id_here
    API_PORT=4242
    ```
 
-7. Save `.env`, stop the running website with `Ctrl+C`, and run `npm run dev` again so the keys load.
+   `STRIPE_PAYMENT_METHOD_CONFIGURATION` is optional. Set it to the `pmc_...` ID for **Other Payment Method** in the same Stripe Sandbox/test mode as your API keys. Leave it blank to use Stripe's default payment configuration.
+
+7. Save `.env`, stop the running website with `Ctrl+C`, and run `npm run dev` again so the settings load.
 8. Choose an amount on the website and click **Continue to payment**. Use Stripe's test payment details; do not use a real card while in test mode.
 
-## GCash, Maya, and QR payments
-
-The checkout uses Stripe's payment form, which displays methods enabled and available for your Stripe account and this PHP payment. In Stripe Dashboard, open **Settings → Payment methods** and enable the methods you want to test. GCash, Maya, and QR-style payment options may require Stripe account eligibility and may not appear for every account. Some wallet payments open a Stripe-hosted page or QR flow.
 
 ## If checkout does not open
 

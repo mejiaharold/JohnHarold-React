@@ -5,6 +5,7 @@ import Stripe from 'stripe'
 
 const app = express()
 const port = Number(process.env.API_PORT) || 4242
+const paymentMethodConfiguration = process.env.STRIPE_PAYMENT_METHOD_CONFIGURATION
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY)
   : null
@@ -33,6 +34,9 @@ app.post('/api/create-payment-intent', paymentIntentLimiter, async (request, res
     const intent = await stripe.paymentIntents.create({
       amount: amountInPesos * 100,
       currency: 'php',
+      ...(paymentMethodConfiguration && {
+        payment_method_configuration: paymentMethodConfiguration,
+      }),
       automatic_payment_methods: {
         enabled: true,
         allow_redirects: 'always',

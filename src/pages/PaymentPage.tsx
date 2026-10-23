@@ -68,8 +68,8 @@ export default function PaymentPage() {
       </div>
       <header className="checkout-heading">
         <p className="eyebrow">Your contribution</p>
-        <h1>Complete your gift.</h1>
-        <p>Your payment details are entered directly into Stripe's secure payment form.</p>
+        <h1>Complete your donation.</h1>
+        <p>Your payment details are entered directly into a secure payment form.</p>
       </header>
       <div className="checkout-layout">
         <aside className="checkout-summary">
@@ -85,7 +85,7 @@ export default function PaymentPage() {
           {paymentStatus === 'succeeded' && (
             <div className="checkout-result payment-success" role="status">
               <h2>Thank you for your donation.</h2>
-              <p>Stripe confirmed your payment. Your support helps bring nourishing food to local families.</p>
+              <p>You will receive a confirmation email shortly. Your support helps bring nourishing food to local families.</p>
               <a className="button button-primary" href="#home">Return home</a>
             </div>
           )}
