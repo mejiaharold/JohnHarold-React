@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "eyebrow": "About Oksyo",
+    "title": "Care starts\naround the table.",
+    "description": "We are building a community feeding effort that helps children and families access nourishing food in the Philippines.",
+    "image": "/images/Pic7-IPT.jpg",
+    "imageAlt": "Community members sharing ideas around a table"
+  },
+  "story": {
+    "label": "Our purpose",
+    "title": "Food support with dignity at its heart.",
+    "paragraphs": [
+      "Oksyo is focused on a simple, urgent need: making nourishing meals more accessible to children and people facing food insecurity.",
+      "Our approach brings together local ingredients, volunteers, and community partners. By listening to the people closest to each neighborhood, we can shape food support around real needs and deliver it with respect."
+    ],
+    "linkText": "Support the feeding program",
+    "linkHref": "#donate"
+  },
+  "leadership": {
+    "image": "/images/john-harold-mejia.png",
+    "imageAlt": "Portrait of John Harold Mejia",
+    "eyebrow": "Organization leadership",
+    "name": "John Harold Mejia",
+    "role": "Founder and Chief Executive Officer",
+    "description": "John leads Oksyo's community feeding mission, bringing people together around practical food support for children and families in the Philippines. The work is guided by listening, dignity, and care for the communities it serves.",
+    "crewLabel": "The people behind the work",
+    "crewTitle": "A crew that makes care practical.",
+    "crewNote": "Crew roles are shown here; individual team names and portraits will be added as they are confirmed.",
+    "crewRoles": [
+      {
+        "number": "01",
+        "title": "Community outreach",
+        "text": "Build relationships with neighborhood leaders and listen to families about local needs."
+      },
+      {
+        "number": "02",
+        "title": "Meal preparation",
+        "text": "Coordinate ingredients, food safety, and thoughtful preparation with volunteers."
+      },
+      {
+        "number": "03",
+        "title": "Volunteer coordination",
+        "text": "Bring people together and help each community activity run smoothly."
+      }
+    ]
+  },
+  "commitment": {
+    "image": "/images/Pic8-IPT.jpg",
+    "imageAlt": "Community members gathered around a table",
+    "eyebrow": "Our commitment",
+    "title": "Good food should bring people together, not leave anyone behind.",
+    "description": "We want every part of our work, from sourcing to serving, to reflect care for people and the places we share."
+  },
+  "principles": {
+    "label": "What guides us",
+    "title": "The way we show up matters.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Nutritious by design",
+        "text": "We believe meals should be satisfying, balanced, and prepared with care."
+      },
+      {
+        "number": "02",
+        "title": "Community first",
+        "text": "Local knowledge and trusted relationships help food support reach people respectfully."
+      },
+      {
+        "number": "03",
+        "title": "Thoughtful sourcing",
+        "text": "Where possible, we prioritize local ingredients and practical choices that reduce waste."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Work with us",
+    "title": "There is room for you at the table.",
+    "description": "Connect with us about volunteering, food contributions, or community partnerships.",
+    "email": "mejia.johnharold@student.auf.edu.ph",
+    "subject": "Community feeding program",
+    "buttonText": "Contact Oksyo"
+  }
+}
