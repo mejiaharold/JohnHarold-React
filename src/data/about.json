@@ -1,83 +1,273 @@
 {
-  "hero": {
-    "eyebrow": "About Oksyo",
-    "title": "Care starts\naround the table.",
-    "description": "We are building a community feeding effort that helps children and families access nourishing food in the Philippines.",
-    "image": "/images/Pic7-IPT.jpg",
-    "imageAlt": "Community members sharing ideas around a table"
-  },
-  "story": {
-    "label": "Our purpose",
-    "title": "Food support with dignity at its heart.",
-    "paragraphs": [
-      "Oksyo is focused on a simple, urgent need: making nourishing meals more accessible to children and people facing food insecurity.",
-      "Our approach brings together local ingredients, volunteers, and community partners. By listening to the people closest to each neighborhood, we can shape food support around real needs and deliver it with respect."
-    ],
-    "linkText": "Support the feeding program",
-    "linkHref": "#donate"
-  },
-  "leadership": {
+  "profile": {
+    "eyebrow": "About me",
+    "greeting": "Hello, I'm",
+    "name": "John Harold Mejia",
+    "fullName": "John Harold Cruz Mejia",
+    "role": "Information Technology Student & Founder of Oksyo",
+    "tagline": "Where ideas meet technology.",
+    "summary": "I'm a tech-driven IT student passionate about networking, coding, and design. I turn ideas into practical solutions by combining technical knowledge with creativity, always looking for new ways to solve problems and create meaningful digital experiences.",
+    "motto": "Move always forward, not backward.",
     "image": "/images/john-harold-mejia.png",
     "imageAlt": "Portrait of John Harold Mejia",
-    "eyebrow": "Organization leadership",
-    "name": "John Harold Mejia",
-    "role": "Founder and Chief Executive Officer",
-    "description": "John leads Oksyo's community feeding mission, bringing people together around practical food support for children and families in the Philippines. The work is guided by listening, dignity, and care for the communities it serves.",
-    "crewLabel": "The people behind the work",
-    "crewTitle": "A crew that makes care practical.",
-    "crewNote": "Crew roles are shown here; individual team names and portraits will be added as they are confirmed.",
-    "crewRoles": [
+    "status": "Open to opportunities"
+  },
+  "stats": [
+    {
+      "value": "1+",
+      "label": "Years experience"
+    },
+    {
+      "value": "6+",
+      "label": "Projects done"
+    },
+    {
+      "value": "12+",
+      "label": "Technologies"
+    },
+    {
+      "value": "5",
+      "label": "Certifications"
+    }
+  ],
+  "story": {
+    "label": "My story",
+    "title": "From Accountancy to Information Technology.",
+    "paragraphs": [
+      "I'm currently studying at Angeles University Foundation as an Information Technology student. My journey has not always been easy or straightforward. Before I became an IT student, I was an Accountancy student, and changing my course was one of the hardest decisions I have ever made.",
+      "Moving forward does not always mean staying on the same path. Sometimes it means having the courage to change direction when you discover that your interests, strengths, and goals are somewhere else. Instead of regretting my decisions, I choose to learn from them and become a better version of myself."
+    ]
+  },
+  "hobbies": {
+    "label": "Beyond the screen",
+    "title": "What I enjoy doing.",
+    "items": [
       {
-        "number": "01",
-        "title": "Community outreach",
-        "text": "Build relationships with neighborhood leaders and listen to families about local needs."
+        "icon": "🎮",
+        "title": "Playing games",
+        "text": "Games sharpen my strategy, teamwork, and problem-solving, and they're my favourite way to unwind."
       },
       {
-        "number": "02",
-        "title": "Meal preparation",
-        "text": "Coordinate ingredients, food safety, and thoughtful preparation with volunteers."
+        "icon": "🐉",
+        "title": "Watching donghua anime",
+        "text": "I love Chinese animation for its world-building, artwork, and long-form storytelling."
       },
       {
-        "number": "03",
-        "title": "Volunteer coordination",
-        "text": "Bring people together and help each community activity run smoothly."
+        "icon": "🔭",
+        "title": "Discovering new things",
+        "text": "Curiosity drives me to explore new tools, ideas, and technologies every day."
+      },
+      {
+        "icon": "🌱",
+        "title": "Willing to learn anything",
+        "text": "I take on any challenge as a chance to learn, adapt, and grow."
       }
     ]
   },
-  "commitment": {
-    "image": "/images/Pic8-IPT.jpg",
-    "imageAlt": "Community members gathered around a table",
-    "eyebrow": "Our commitment",
-    "title": "Good food should bring people together, not leave anyone behind.",
-    "description": "We want every part of our work, from sourcing to serving, to reflect care for people and the places we share."
-  },
-  "principles": {
-    "label": "What guides us",
-    "title": "The way we show up matters.",
+  "education": {
+    "label": "Education",
+    "title": "Where I'm learning.",
     "items": [
       {
-        "number": "01",
-        "title": "Nutritious by design",
-        "text": "We believe meals should be satisfying, balanced, and prepared with care."
+        "period": "Present",
+        "school": "Angeles University Foundation",
+        "program": "Bachelor of Science in Information Technology",
+        "detail": "BSIT 3-B · 1st Semester, S.Y. 2026–2027",
+        "highlights": [
+          "Advanced Information Management",
+          "Information Assurance and Security",
+          "Integrative Programming and Technologies",
+          "Social Issues and Professional Ethics"
+        ]
       },
       {
-        "number": "02",
-        "title": "Community first",
-        "text": "Local knowledge and trusted relationships help food support reach people respectfully."
+        "period": "Before",
+        "school": "Angeles University Foundation",
+        "program": "Accountancy",
+        "detail": "Shifted to Information Technology after discovering where my strengths and goals really are.",
+        "highlights": []
+      }
+    ]
+  },
+  "services": {
+    "label": "Services",
+    "title": "What I can do for you.",
+    "items": [
+      {
+        "icon": "🎨",
+        "title": "UI / UX Design",
+        "text": "Digital experiences that feel natural and engaging, blending thoughtful design with intuitive functionality.",
+        "tags": [
+          "Figma",
+          "Wireframe",
+          "Prototype",
+          "Balsamiq"
+        ]
       },
       {
-        "number": "03",
-        "title": "Thoughtful sourcing",
-        "text": "Where possible, we prioritize local ingredients and practical choices that reduce waste."
+        "icon": "💻",
+        "title": "Web Development",
+        "text": "Clean, responsive, and visually compelling websites that give visitors an enjoyable experience.",
+        "tags": [
+          "Front-end",
+          "Back-end",
+          "HTML/CSS",
+          "REST API"
+        ]
+      },
+      {
+        "icon": "🌐",
+        "title": "Networking",
+        "text": "Networks that run smoothly and securely, connecting systems and users while supporting business growth.",
+        "tags": [
+          "Cisco",
+          "VLAN",
+          "TCP/IP"
+        ]
+      },
+      {
+        "icon": "📊",
+        "title": "Data Science & Analytics",
+        "text": "Interpreting complex data into insights that drive informed decisions and strategic solutions.",
+        "tags": [
+          "SQL",
+          "Power BI",
+          "Accounting",
+          "Excel"
+        ]
+      }
+    ]
+  },
+  "capabilities": {
+    "label": "Capabilities",
+    "title": "Tools & technologies.",
+    "groups": [
+      {
+        "name": "Languages & frameworks",
+        "items": [
+          "React",
+          "Python",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Java",
+          "C#",
+          "PHP",
+          "Yii PHP Framework"
+        ]
+      },
+      {
+        "name": "Data & backend",
+        "items": [
+          "MySQL",
+          "Oracle APEX",
+          "XAMPP",
+          "SQL",
+          "Power BI"
+        ]
+      },
+      {
+        "name": "Design & productivity",
+        "items": [
+          "Figma",
+          "Canva",
+          "Balsamiq",
+          "Microsoft Office",
+          "MS Teams"
+        ]
+      },
+      {
+        "name": "Networking & tools",
+        "items": [
+          "Cisco NetAcad",
+          "Packet Tracer",
+          "GitHub",
+          "Visual Studio",
+          "Notepad++",
+          "Discord"
+        ]
+      },
+      {
+        "name": "AI assistants",
+        "items": [
+          "Claude AI",
+          "ChatGPT",
+          "Gemini",
+          "Google"
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "label": "Credentials",
+    "title": "Certifications & completion.",
+    "items": [
+      {
+        "title": "CompTIA Tech+",
+        "issuer": "CompTIA",
+        "date": "17 Apr 2026",
+        "status": "Certified"
+      },
+      {
+        "title": "CCNA: Enterprise Networking, Security, and Automation",
+        "issuer": "Cisco Networking Academy · Angeles University Foundation",
+        "date": "05 Aug 2026",
+        "status": "Completed"
+      },
+      {
+        "title": "CCNAv7: Switching, Routing, and Wireless Essentials",
+        "issuer": "Cisco Networking Academy",
+        "date": "17 Jan 2025",
+        "status": "Completed"
+      },
+      {
+        "title": "Python Essentials 1",
+        "issuer": "Python Institute · Cisco Networking Academy",
+        "date": "25 Nov 2025",
+        "status": "Completed"
+      },
+      {
+        "title": "CCNAv7: Introduction to Networks",
+        "issuer": "Cisco Networking Academy",
+        "date": "13 Jun 2024",
+        "status": "Completed"
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "School projects.",
+    "items": [
+      {
+        "type": "Desktop app",
+        "title": "Java: Dining Buffet Kiosk",
+        "stack": "Java · Swing · SQL"
+      },
+      {
+        "type": "Desktop app",
+        "title": "SweetTrack: Inventory System for Kanela Corner",
+        "stack": "C# · .NET · SQLite"
+      },
+      {
+        "type": "UI/UX design",
+        "title": "Barangay Community UI/UX",
+        "stack": "Figma · UI/UX · Prototyping"
+      },
+      {
+        "type": "Web development",
+        "title": "PHP: E-Commerce – CartMan",
+        "stack": "PHP · MySQL · JavaScript"
       }
     ]
   },
   "contact": {
-    "eyebrow": "Work with us",
-    "title": "There is room for you at the table.",
-    "description": "Connect with us about volunteering, food contributions, or community partnerships.",
-    "email": "mejia.johnharold@student.auf.edu.ph",
-    "subject": "Community feeding program",
-    "buttonText": "Contact Oksyo"
+    "eyebrow": "Let's connect",
+    "title": "Want to collaborate? Let's talk.",
+    "description": "If you have a question or an idea you'd like to discuss, I'd love to hear from you.",
+    "email": "johnharoldmejia8@gmail.com",
+    "phone": "+63 956 523 1702",
+    "location": "Sta. Cruz, Magalang, Pampanga, Philippines",
+    "subject": "Hello John Harold",
+    "buttonText": "Email me"
   }
 }

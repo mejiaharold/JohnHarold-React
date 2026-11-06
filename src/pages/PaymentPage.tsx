@@ -66,18 +66,31 @@ export default function PaymentPage() {
         <a className="checkout-back" href="#donate"><span aria-hidden="true">←</span> Back to donation</a>
         <span className="checkout-secure-label">Secure checkout by Stripe</span>
       </div>
+      <ol className="checkout-steps" aria-label="Donation progress">
+        <li className="done"><span>✓</span> Choose amount</li>
+        <li className={paymentStatus === 'succeeded' ? 'done' : 'current'}><span>{paymentStatus === 'succeeded' ? '✓' : '2'}</span> Payment</li>
+        <li className={paymentStatus === 'succeeded' ? 'current' : ''}><span>3</span> Confirmation</li>
+      </ol>
       <header className="checkout-heading">
         <p className="eyebrow">Your contribution</p>
-        <h1>Complete your donation.</h1>
+        <h1>Complete your <em>donation.</em></h1>
         <p>Your payment details are entered directly into a secure payment form.</p>
       </header>
       <div className="checkout-layout">
         <aside className="checkout-summary">
-          <p className="eyebrow">One-time donation</p>
-          <p className="checkout-amount">{amount === null ? '—' : `₱${amount.toLocaleString('en-PH')}`}</p>
-          <p className="checkout-summary-copy">Your contribution supports nourishing food and practical meal support for children and families.</p>
-          <div className="checkout-summary-rule" />
-          <p className="checkout-summary-note">Oksyo does not receive or store your card details.</p>
+          <img className="checkout-photo" src="/images/Pic2-IPT.jpg" alt="Children sharing a meal" />
+          <div className="checkout-summary-body">
+            <p className="eyebrow">One-time donation</p>
+            <p className="checkout-amount">{amount === null ? '—' : `₱${amount.toLocaleString('en-PH')}`}</p>
+            <p className="checkout-summary-copy">Your contribution supports nourishing food and practical meal support for children and families.</p>
+            <div className="checkout-summary-rule" />
+            <ul className="checkout-perks">
+              <li>🔒 Encrypted, PCI-compliant checkout</li>
+              <li>🍚 Goes toward ingredients and meal prep</li>
+              <li>✉️ Email confirmation after payment</li>
+            </ul>
+            <p className="checkout-summary-note">Oksyo does not receive or store your card details.</p>
+          </div>
         </aside>
         <section className="checkout-card" aria-label="Payment details">
           {isLoading && <p className="checkout-loading" role="status">Preparing secure payment options...</p>}

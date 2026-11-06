@@ -69,7 +69,7 @@ export default function DonationPayment({ clientSecret, amount, onStatus }: Dona
     <section className="payment-panel" aria-label="Secure donation checkout">
       <p className="eyebrow">Secure checkout</p>
       <h3>Input your Payment Information</h3>
-      <p className="payment-method-note">     </p>
+      <p className="payment-method-note">Cards and supported e-wallets are accepted.</p>
       <Elements
         stripe={stripePromise}
         options={{

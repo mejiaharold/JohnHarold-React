@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Header, { type Page } from './components/Header'
 import Footer from './components/Footer'
@@ -12,13 +12,23 @@ const pageFromHash = (): Page => {
   return 'home'
 }
 
+/** Hashes that point at a section on the home page rather than a separate page. */
+const isHomeSection = () => {
+  const id = window.location.hash.slice(1)
+  return id !== '' && id !== 'home' && id !== 'about' && id !== 'payment'
+}
+
 export default function App() {
   const [page, setPage] = useState<Page>(pageFromHash)
 
   useEffect(() => {
     const onHash = () => {
-      setPage(pageFromHash())
-      if (window.location.hash !== '#donate') {
+      const next = pageFromHash()
+      setPage(next)
+      if (next === 'home' && isHomeSection()) {
+        // wait for the home page to mount when coming from another page
+        window.setTimeout(() => document.getElementById(window.location.hash.slice(1))?.scrollIntoView(), 30)
+      } else {
         window.scrollTo(0, 0)
       }
     }
@@ -27,8 +37,8 @@ export default function App() {
   }, [])
 
   useEffect(() => {
-    if (page === 'home' && window.location.hash === '#donate') {
-      document.getElementById('donate')?.scrollIntoView()
+    if (page === 'home' && isHomeSection()) {
+      document.getElementById(window.location.hash.slice(1))?.scrollIntoView()
     }
   }, [page])
 

@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "eyebrow": "Oksyo Community Feeding Program",
+    "title": "Nourishing children and families across Metro Manila.",
+    "text": "Oksyo is a community-led feeding initiative working to bring balanced, locally sourced meals to children and families who need them, guided by one promise: walang iwanan, no one left behind.",
+    "primaryCta": "Donate now",
+    "secondaryCta": "Learn about our work"
+  },
+  "glance": [
+    { "value": "₱100", "label": "Minimum one-time gift" },
+    { "value": "3", "label": "Initial focus areas in Metro Manila" },
+    { "value": "100%", "label": "Secure checkout through Stripe" },
+    { "value": "Local", "label": "Ingredients and partners first" }
+  ],
+  "about": {
+    "label": "Who we are",
+    "title": "A community initiative built on care, not charity from a distance.",
+    "paragraphs": [
+      "Oksyo was founded by John Harold Mejia, an Information Technology student at Angeles University Foundation, with a simple belief: a nourishing meal is the foundation for a child's energy to learn, play, and grow.",
+      "We work alongside local leaders, volunteers, and community partners so that every meal day is shaped by the people it serves. We listen first, plan together, and keep food support close to home."
+    ],
+    "mission": {
+      "title": "Our mission",
+      "text": "To provide safe, balanced, and dignified meal support to children and families in Metro Manila, using local ingredients and community partnerships."
+    },
+    "vision": {
+      "title": "Our vision",
+      "text": "A community where no child goes to school or to sleep hungry, and where neighbors look out for one another."
+    }
+  },
+  "why": {
+    "label": "Why it matters",
+    "title": "Food is more than a meal.",
+    "text": "Regular, nutritious food supports a child's focus in class, physical growth, and overall well-being. For many families in dense urban communities, rising food costs and unstable income make consistent meals hard to guarantee. Community feeding fills that gap with practical, immediate care.",
+    "points": [
+      { "title": "Energy to learn", "text": "Children concentrate better and take part more fully when they are not hungry." },
+      { "title": "Healthy growth", "text": "Balanced meals with rice, vegetables, and protein support growing bodies." },
+      { "title": "Stronger community", "text": "Shared meals build trust and remind families that their neighbors care." }
+    ]
+  },
+  "programs": {
+    "label": "Our programs",
+    "title": "What Oksyo does.",
+    "intro": "Four connected activities make up the Community Feeding Program.",
+    "items": [
+      {
+        "icon": "🍚",
+        "title": "Community meal days",
+        "text": "Planned, volunteer-supported meal days that serve filling, balanced food to children and families at safe, agreed distribution points."
+      },
+      {
+        "icon": "🌾",
+        "title": "Local sourcing",
+        "text": "We aim to buy ingredients from nearby suppliers and markets, supporting local livelihoods while keeping food fresh."
+      },
+      {
+        "icon": "🤝",
+        "title": "Partner referrals",
+        "text": "We work with barangay leaders, schools, and community groups to understand who needs support and where."
+      },
+      {
+        "icon": "🙌",
+        "title": "Volunteer network",
+        "text": "Students, professionals, and neighbors can help with preparation, serving, logistics, and documentation."
+      }
+    ]
+  },
+  "process": {
+    "label": "How a meal day works",
+    "title": "From listening to serving.",
+    "steps": [
+      { "title": "Listen", "text": "Speak with local leaders and families to understand needs, dietary concerns, and the best day and place to serve." },
+      { "title": "Plan the menu", "text": "Design balanced, affordable meals and confirm quantities with each community partner." },
+      { "title": "Source locally", "text": "Buy fresh ingredients from nearby suppliers wherever practical." },
+      { "title": "Prepare safely", "text": "Follow safe food-handling practices with trained volunteers and clean, reusable supplies where possible." },
+      { "title": "Serve with dignity", "text": "Distribute meals in an orderly, respectful way, so everyone is welcomed and no one is singled out." }
+    ]
+  },
+  "focusAreas": {
+    "label": "Where we hope to serve",
+    "title": "Start local. Listen first.",
+    "intro": "These are illustrative focus areas for community conversations, not confirmed feeding sites. We will work with local leaders to identify needs, dates, and safe distribution points.",
+    "items": [
+      { "name": "Baseco, Tondo", "city": "Manila", "text": "An example neighborhood for listening with local families and exploring a community-led meal day." },
+      { "name": "Payatas", "city": "Quezon City", "text": "A potential area for connecting with community groups and understanding food support needs." },
+      { "name": "Nearby communities", "city": "Metro Manila", "text": "Additional locations can be shaped around partner referrals, volunteer capacity, and local priorities." }
+    ]
+  },
+  "values": {
+    "label": "Our principles",
+    "title": "How we work.",
+    "items": [
+      { "title": "Dignity", "text": "Everyone is served with respect. Food support should never feel like a favor." },
+      { "title": "Transparency", "text": "We are open about what we plan, what we know, and what is still being confirmed." },
+      { "title": "Local first", "text": "Local ingredients, local partners, and local leadership shape each meal day." },
+      { "title": "Safety", "text": "Safe food handling and child-friendly practices come before everything else." }
+    ]
+  },
+  "usage": {
+    "label": "Your contribution",
+    "title": "How your gift is used.",
+    "text": "Donations are directed toward the practical costs of running a meal day. Amounts are suggestions, not a guaranteed number of meals, and we confirm arrangements with donors directly.",
+    "items": [
+      { "title": "Ingredients", "text": "Rice, vegetables, protein, and other staples from local suppliers." },
+      { "title": "Preparation supplies", "text": "Cooking essentials, food-safe containers, and reusable serving items." },
+      { "title": "Delivery and logistics", "text": "Transport and coordination to get meals to the people who need them." }
+    ]
+  },
+  "roadmap": {
+    "label": "Roadmap",
+    "title": "Where we are headed.",
+    "items": [
+      { "phase": "Phase 1", "title": "Listen and connect", "text": "Hold community conversations and build relationships with local leaders and partner groups." },
+      { "phase": "Phase 2", "title": "Plan and prepare", "text": "Finalize menus, sourcing, food-safety steps, and volunteer teams for a first meal day." },
+      { "phase": "Phase 3", "title": "Serve", "text": "Run community meal days with partner communities and gather feedback." },
+      { "phase": "Phase 4", "title": "Report and grow", "text": "Share what we learned and expand to more communities in a responsible way." }
+    ]
+  },
+  "involved": {
+    "label": "Get involved",
+    "title": "There is a place for everyone.",
+    "items": [
+      { "icon": "💚", "title": "Donate", "text": "Give a one-time gift securely online to support ingredients and meal preparation.", "cta": "Give now", "href": "#donate" },
+      { "icon": "🙋", "title": "Volunteer", "text": "Offer your time for meal preparation, serving, logistics, or documentation.", "cta": "Email us", "href": "mailto:mejia.johnharold@student.auf.edu.ph?subject=Volunteer%20with%20Oksyo" },
+      { "icon": "🏘️", "title": "Partner with us", "text": "Schools, barangays, businesses, and community groups can help us reach families.", "cta": "Start a conversation", "href": "mailto:mejia.johnharold@student.auf.edu.ph?subject=Partnership%20with%20Oksyo" }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Common questions.",
+    "items": [
+      {
+        "q": "Who runs Oksyo?",
+        "a": "Oksyo was founded by John Harold Mejia, an Information Technology student at Angeles University Foundation. You can read more on the About page."
+      },
+      {
+        "q": "Are the focus areas confirmed feeding sites?",
+        "a": "Not yet. The areas shown are illustrative starting points for community conversations. Locations, dates, and distribution points will be confirmed together with local leaders and partners."
+      },
+      {
+        "q": "Are the photos from Oksyo activities?",
+        "a": "No. Photos on this site are illustrative community imagery and are not documentation of Oksyo feeding activities."
+      },
+      {
+        "q": "How secure is my payment?",
+        "a": "Payments are processed by Stripe. Your card details are entered into Stripe's secure form, and Oksyo does not receive or store them."
+      },
+      {
+        "q": "Can I give monthly?",
+        "a": "Monthly giving is not available yet. At the moment we accept one-time donations in Philippine pesos, starting from ₱100."
+      },
+      {
+        "q": "Will I receive a receipt?",
+        "a": "You will receive an email confirmation after your payment. If you need documentation for your records, please contact us directly."
+      }
+    ]
+  },
+  "volunteerBand": {
+    "eyebrow": "Questions or ideas?",
+    "title": "Bring your time, skills, or a helping hand.",
+    "cta": "Get in touch"
+  }
+}
