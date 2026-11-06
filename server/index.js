@@ -1,14 +1,28 @@
-import 'dotenv/config'
+import { config } from 'dotenv'
 import express from 'express'
 import rateLimit from 'express-rate-limit'
 import Stripe from 'stripe'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+config({ path: resolve(dirname(fileURLToPath(import.meta.url)), '../.env') })
 
 const app = express()
 const port = Number(process.env.API_PORT) || 4242
-const paymentMethodConfiguration = process.env.STRIPE_PAYMENT_METHOD_CONFIGURATION
+const requestedPaymentMethodConfiguration = process.env.STRIPE_PAYMENT_METHOD_CONFIGURATION
+const isPaymentMethodConfigurationPlaceholder = Boolean(
+  requestedPaymentMethodConfiguration && /paste|your|replace|example|placeholder/i.test(requestedPaymentMethodConfiguration),
+)
+const paymentMethodConfiguration = isPaymentMethodConfigurationPlaceholder
+  ? undefined
+  : requestedPaymentMethodConfiguration
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY)
   : null
+
+if (isPaymentMethodConfigurationPlaceholder) {
+  console.warn('Ignoring placeholder STRIPE_PAYMENT_METHOD_CONFIGURATION; using Stripe default payment methods.')
+}
 
 app.disable('x-powered-by')
 app.use(express.json({ limit: '10kb' }))
@@ -58,4 +72,5 @@ app.post('/api/create-payment-intent', paymentIntentLimiter, async (request, res
 
 app.listen(port, () => {
   console.log(`Oksyo payment API listening on http://localhost:${port}`)
+  console.log(`Stripe payments ${stripe ? 'enabled' : 'disabled: STRIPE_SECRET_KEY is missing'}`)
 })
